@@ -101,6 +101,7 @@ namespace ClientApp
 
         private void placeOrderToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            s = "";
             // Check whether lstBxEntree has a selected item of at least 1
             if (lstBxEntree.SelectedItems.Count >= 1)
             {
