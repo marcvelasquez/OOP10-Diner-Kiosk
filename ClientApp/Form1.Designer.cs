@@ -79,7 +79,7 @@
             // 
             lstBxEntree.FormattingEnabled = true;
             lstBxEntree.ItemHeight = 20;
-            lstBxEntree.Location = new Point(111, 137);
+            lstBxEntree.Location = new Point(58, 113);
             lstBxEntree.Name = "lstBxEntree";
             lstBxEntree.SelectionMode = SelectionMode.MultiExtended;
             lstBxEntree.Size = new Size(150, 104);
@@ -95,7 +95,7 @@
             groupBox2.Controls.Add(radSoda);
             groupBox2.Controls.Add(radJuice);
             groupBox2.Controls.Add(radMilk);
-            groupBox2.Location = new Point(293, 137);
+            groupBox2.Location = new Point(244, 113);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(135, 215);
             groupBox2.TabIndex = 7;
@@ -178,7 +178,7 @@
             // 
             cmboSpecial.FormattingEnabled = true;
             cmboSpecial.Items.AddRange(new object[] { "Whole Wheat", "Pumpernickel", "Seedless Rye", "Pita", "Sour Dough" });
-            cmboSpecial.Location = new Point(111, 264);
+            cmboSpecial.Location = new Point(58, 223);
             cmboSpecial.Name = "cmboSpecial";
             cmboSpecial.Size = new Size(151, 28);
             cmboSpecial.TabIndex = 8;
@@ -188,7 +188,7 @@
             // ckBxWater
             // 
             ckBxWater.AutoSize = true;
-            ckBxWater.Location = new Point(110, 330);
+            ckBxWater.Location = new Point(103, 267);
             ckBxWater.Name = "ckBxWater";
             ckBxWater.Size = new Size(70, 24);
             ckBxWater.TabIndex = 9;
@@ -202,7 +202,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.Size = new Size(434, 28);
             menuStrip1.TabIndex = 10;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -283,7 +283,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(434, 450);
             Controls.Add(ckBxWater);
             Controls.Add(cmboSpecial);
             Controls.Add(groupBox2);

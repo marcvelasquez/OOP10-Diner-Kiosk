@@ -122,7 +122,8 @@ namespace ClientApp
                     s += "Drink Selection: " + newOrder.drinkSelection + "\n";
                 }
 
-                s += "\n\nTotal Charges: " + newOrder.DetermineTotalCharges().ToString("C") + "\n";
+                s += "\n\nTotal Charges: $" + newOrder.DetermineTotalCharges().ToString() + "\n";
+
 
 
                 MessageBox.Show(s);
