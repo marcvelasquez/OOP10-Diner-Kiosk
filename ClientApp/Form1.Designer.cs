@@ -48,11 +48,11 @@
             displayOrderToolStripMenuItem = new ToolStripMenuItem();
             exitToolStripMenuItem = new ToolStripMenuItem();
             editToolStripMenuItem = new ToolStripMenuItem();
-            helpToolStripMenuItem = new ToolStripMenuItem();
-            aboutToolStripMenuItem = new ToolStripMenuItem();
             entreeToolStripMenuItem1 = new ToolStripMenuItem();
             drinkToolStripMenuItem = new ToolStripMenuItem();
             specialRequestToolStripMenuItem1 = new ToolStripMenuItem();
+            helpToolStripMenuItem = new ToolStripMenuItem();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
             groupBox2.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -216,29 +216,30 @@
             // placeOrderToolStripMenuItem
             // 
             placeOrderToolStripMenuItem.Name = "placeOrderToolStripMenuItem";
-            placeOrderToolStripMenuItem.Size = new Size(183, 26);
+            placeOrderToolStripMenuItem.Size = new Size(224, 26);
             placeOrderToolStripMenuItem.Text = "Place Order";
             placeOrderToolStripMenuItem.Click += placeOrderToolStripMenuItem_Click;
             // 
             // clearOrderToolStripMenuItem
             // 
             clearOrderToolStripMenuItem.Name = "clearOrderToolStripMenuItem";
-            clearOrderToolStripMenuItem.Size = new Size(183, 26);
+            clearOrderToolStripMenuItem.Size = new Size(224, 26);
             clearOrderToolStripMenuItem.Text = "Clear Order";
             clearOrderToolStripMenuItem.Click += clearOrderToolStripMenuItem_Click;
             // 
             // displayOrderToolStripMenuItem
             // 
             displayOrderToolStripMenuItem.Name = "displayOrderToolStripMenuItem";
-            displayOrderToolStripMenuItem.Size = new Size(183, 26);
+            displayOrderToolStripMenuItem.Size = new Size(224, 26);
             displayOrderToolStripMenuItem.Text = "Display Order";
             displayOrderToolStripMenuItem.Click += displayOrderToolStripMenuItem_Click;
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(183, 26);
+            exitToolStripMenuItem.Size = new Size(224, 26);
             exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
             // editToolStripMenuItem
             // 
@@ -246,6 +247,24 @@
             editToolStripMenuItem.Name = "editToolStripMenuItem";
             editToolStripMenuItem.Size = new Size(49, 24);
             editToolStripMenuItem.Text = "Edit";
+            // 
+            // entreeToolStripMenuItem1
+            // 
+            entreeToolStripMenuItem1.Name = "entreeToolStripMenuItem1";
+            entreeToolStripMenuItem1.Size = new Size(197, 26);
+            entreeToolStripMenuItem1.Text = "Entree";
+            // 
+            // drinkToolStripMenuItem
+            // 
+            drinkToolStripMenuItem.Name = "drinkToolStripMenuItem";
+            drinkToolStripMenuItem.Size = new Size(197, 26);
+            drinkToolStripMenuItem.Text = "Drink";
+            // 
+            // specialRequestToolStripMenuItem1
+            // 
+            specialRequestToolStripMenuItem1.Name = "specialRequestToolStripMenuItem1";
+            specialRequestToolStripMenuItem1.Size = new Size(197, 26);
+            specialRequestToolStripMenuItem1.Text = "Special Request";
             // 
             // helpToolStripMenuItem
             // 
@@ -257,26 +276,8 @@
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(224, 26);
+            aboutToolStripMenuItem.Size = new Size(133, 26);
             aboutToolStripMenuItem.Text = "About";
-            // 
-            // entreeToolStripMenuItem1
-            // 
-            entreeToolStripMenuItem1.Name = "entreeToolStripMenuItem1";
-            entreeToolStripMenuItem1.Size = new Size(224, 26);
-            entreeToolStripMenuItem1.Text = "Entree";
-            // 
-            // drinkToolStripMenuItem
-            // 
-            drinkToolStripMenuItem.Name = "drinkToolStripMenuItem";
-            drinkToolStripMenuItem.Size = new Size(224, 26);
-            drinkToolStripMenuItem.Text = "Drink";
-            // 
-            // specialRequestToolStripMenuItem1
-            // 
-            specialRequestToolStripMenuItem1.Name = "specialRequestToolStripMenuItem1";
-            specialRequestToolStripMenuItem1.Size = new Size(224, 26);
-            specialRequestToolStripMenuItem1.Text = "Special Request";
             // 
             // Form1
             // 
